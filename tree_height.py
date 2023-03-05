@@ -24,7 +24,7 @@ def lasa_input():
             nosaukums = input("Nepareizs nosaukums")
         # meiģina atvērt failu
         try:
-            with open(f"open/{nosaukums}", "r") as fails:
+            with open("test/" + nosaukums, "r") as fails:
                 n = int(fails.readline())
                 parents = list(map(int, fails.readline().split()))
         # ja nesanāk nolasīt failu
