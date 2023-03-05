@@ -1,7 +1,4 @@
-# 221RDB152 Rinalds Ulmanis 7. grupa 
-# python3
-
-
+# 221RDB152 Rinalds Ulmanis 7. grupa
 # python3
 
 import sys
